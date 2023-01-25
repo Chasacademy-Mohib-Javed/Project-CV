@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main-header{
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 70px;
+    border: 5px solid rgb(84, 84, 84);
+    
+    }
+    
+    .main-nav{
+    width: 40%;
+    
+    }
+    
+    
+    .main-nav-list{
+    
+        display: flex;
+        justify-content: space-between;
+       align-content: center;
+       list-style-type: none;
+     
+    }
+    
+    .main-nav a{
+        color: white;
+        text-decoration: none;
+        font-size: x-large;
+        
+        
+    }
+   
+   
+    .body1{
+        background-image: url(cover2.jpg);
+       background-position: center;
+       background-size: cover;
+       height: 100vh;
+       background-repeat: no-repeat;
+       background-position-y: 5px;
+       
+    }
+
+    .main-nav-list a:hover{
+        box-shadow: 0 4px 0 greenyellow;
+    } 
+
+/* ----------------------------------------------------------------------- home */ 
+
+.body2{
+ background-color:  rgb(84, 84, 84);
+ 
+}
+.photo img {
+    height: 20%;
+}
+.resume{
+    display: grid;
+    grid-template-columns: 0fr 5fr;
+    position: relative;
+    max-height: 1000px;
+    max-width: 170vh;
+    width: 100%;
+    margin-left: 10%;
+    height: 100vh;
+    border: 5px solid black;
+    height: 100%;
+    font-family: 'Crimson Text', serif;
+
+    
+
+}
+.left-side {
+    background-color: whitesmoke;
+    padding: 40px;
+    position: relative;
+    
+    
+
+}
+.right-side {
+    background-color: bisque;
+    font-size: small;
+    
+   
+
+}
+.photo img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+   
+   
+}
+.photo{
+    display: flex;
+    justify-content: center;
+}
+.h1{
+    text-align: center;
+}
+
+.line-1 {
+    height: 2px;
+    background: black;
+  }
+
+
+/*-------------------------------------------------------------------*/
+
+.body3{  
+    background-color: black;
+}
+
+.containerbox{
+    background-color: bisque;
+    margin-left: 400px;
+    width: 500px;
+    height: 300px;
+    border: 5px solid  rgb(84, 84, 84);
+    margin-top: 50px;
+}
+
+.maintext{
+    margin-left: 150px;
+    margin-top: 20px;
+
+}
+
+.telefon {
+color: black;
+margin-top: 150px;
+margin-left: 20px;
+font-size: x-large;
+
+
+}
+
+.mail{
+    
+    font-size: x-large;
+  margin-left: 300px;
+  margin-top: -35px;
+    color: rgb(0, 0, 0);
+
+}
+
+#active-page{
+color: goldenrod;
+}
+
+.numberpic{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+@media(max-width:500px) {
+    .main-header{
+        width: 105vh;
+    }
+    .containerbox{
+        margin-left: 56%;
+        
+
+    }
+}
+@media (min-width:550px)
+and (max-width:998px){
+    
+    .main-header{
+        width: 105vh;
+    }
+    .containerbox{
+        margin-left: 50%;
+        margin-top: 50%;
+        height: 30vh;
+    }
+    .body2{
+        width: 10vh;
+        height: 1000vh;
+
+    }
+    .left-side{
+        width: 79vh;
+        border: 0 5px solid black;
+    }
+    .resume{
+        border: 10px 20px solid black;
+    }
+
+}
+#myBtn{
+    color: white;
+    background-color: black;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .body4 {
+background-image: url(screenshot.png);
+background-position: center;
+background-size: contain;
+ background-repeat: no-repeat;
+}
